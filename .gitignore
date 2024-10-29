@@ -1,0 +1,43 @@
+# Node modules
+node_modules/
+
+# Logs
+*.log
+
+# Operating system files
+.DS_Store         # macOS
+Thumbs.db        # Windows
+
+# Build output
+dist/
+build/
+out/
+
+# IDEs and Editors
+.vscode/          # Visual Studio Code
+.idea/            # JetBrains IDEs
+*.sublime-project
+*.sublime-workspace
+
+# Temporary files
+temp/
+tmp/
+.cache/
+
+# Environment variables
+.env              # Environment variables (like database passwords, API keys)
+
+# Coverage reports
+coverage/
+
+# Other common ignores
+*.swp             # Vim swap files
+*.lock            # Lock files
+*.sqlite          # SQLite database files
+
+# Ignore images or assets (if you are using placeholder images)
+assets/images/*.png
+assets/images/*.jpg
+
+# Ignore other local config files
+local-config.json
