@@ -16,6 +16,7 @@ out/
 # IDEs and Editors
 .vscode/          # Visual Studio Code
 .idea/            # JetBrains IDEs
+*.iml
 *.sublime-project
 *.sublime-workspace
 
