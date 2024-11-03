@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!------------------------------------>
+<!--  1. Head, fonts, icon and css link -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Booking App</title>
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+
+<!------------------------------------>
+<!--  1. Header, Navigation menu -->
+<header>
+    <nav>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">My Classes</a></li>
+        <li><a href="#">Contact</a></li>
+    </nav>
+</header>
+
+
+
+<!------------------------------------>
+<!-- 2. Banner,section  -->
+<div class="banner-container">
+    <h1 id="main-title">Book Your Class</h1>
+</div>
+
+
+<!------------------------------------>
+<!-- 3. Welcome, Section -->
+<div class="welcome-section">
+    <img src="assets/images/teacher2.jpg" alt="Welcome Image" class="welcome-image">
+    <div class="welcome-text">
+        <h2>Welcome to AnLearning</h2>
+        <p>Your journey to knowledge starts here. Explore our classes and find the best fit for you!</p>
+    </div>
+</div>
+
+
+
+<div class="divider"></div>
+
+
+<!------------------------------------>
+<!-- 4. Arrow and Text Before Teacher List -->
+<div class="list-intro-container">
+    <div class="bulb-line">
+        <!-- SVG arrow animation to indicate scrolling down -->
+        <svg class="scroll-arrow" fill="none">
+            <path d="M30.507 95.0001C31.9643 85.997 34.5892 83.3974 38.507 79C41.007 74 45.507 69.5 44.507 61.5C44.507 58.5 39.5071 42 25.0071 40C10.5071 38 0.699346 52 1.00704 60.5C1.35983 70.2459 12.0071 72.5 14.0071 64.5C16.0071 56.5 16.5 72.7005 21.0071 67C25.5141 61.2995 30.0525 56 34.5071 63C41.5071 74 71.8987 70.7005 59.0071 33V0M30.507 95.0001H15.007L17.007 98.5001M30.507 95.0001L22.007 106.5M17.007 98.5001H27.6761M17.007 98.5001L19.507 102.5M19.507 102.5H24.4407M19.507 102.5L22.007 106.5M22.007 106.5V160H873" stroke="#7D7C7C" stroke-opacity="0.81" stroke-width="2"/>
+        </svg>
+    </div>
+    <p class="intro-text">Meet Our Teachers, Book Now!</p>
+</div>
+
+
+<!------------------------------------>
+<!-- 5. Container for dynamically generated teacher cards -->
+<div id="teacher-list" class="teacher-list">
+    <!-- Teacher cards will be generated here dynamically -->
+</div>
+
+
+
+
+<!------------------------------------>
+<!-- 6. Footer, Social media links for the application -->
+<footer>
+
+    <div class="social-media">
+        <nav>
+            <li><a href="https://www.facebook.com/" class="fa fa-facebook"></a></li>
+            <li><a href="https://twitter.com/" class="fa fa-twitter"></a></li>
+            <li><a href="https://www.instagram.com/" class="fa fa-instagram"></a></li>
+            <li><a href="https://www.linkedin.com/" class="fa fa-linkedin"></a></li>
+        </nav>
+    </div>
+
+    <h3>Copyright &copy; 2024 All rights reserved</h3>
+</footer>
+
+
+<!------------------------------------>
+<!-- 7. GSAP library for animations & js file -->
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+
+</html>
