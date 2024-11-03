@@ -99,5 +99,20 @@ document.addEventListener("DOMContentLoaded", () => {
         `;
 
         teacherList.appendChild(teacherCard);
+
+        gsap.from(teacherCard, {
+            opacity: 0,
+            y: 30, // Slide up from below
+            duration: 0.5,
+            ease: "power2.out",
+            scrollTrigger: {
+                trigger: teacherCard,
+                start: "top 80%", // Trigger when the top of the card hits 80% of the viewport height
+                toggleActions: "play none none reverse",
+            }
+        });
     });
+
+
+
 });
