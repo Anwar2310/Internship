@@ -61,6 +61,7 @@ nav a:hover {
 }
 
 .banner-container h1 {
+    font-family: 'Poppins', sans-serif; /
     color: #ffffff;
 }
 
@@ -93,12 +94,14 @@ nav a:hover {
 }
 
 .welcome-text h2 {
+    font-family: 'Poppins', sans-serif;
     font-size: 2rem;
     margin: 0;
     color: #333;
 }
 
 .welcome-text p {
+    font-family: 'Poppins', sans-serif;
     font-size: 1rem;
     color: #3e3e3e;
 }
@@ -136,6 +139,7 @@ nav a:hover {
 }
 
 .intro-text {
+    font-family: 'Poppins', sans-serif;
     font-size: 1.5rem;
     opacity: 0;
     transform: translateY(20px);
