@@ -86,7 +86,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
     /*-----------------------------------------------------*/
-    // 5. Generate teacher cards
+    // 5. Generate teacher cards + animation
     teachers.forEach(teacher => {
         const teacherCard = document.createElement("div");
         teacherCard.classList.add("teacher-card");
